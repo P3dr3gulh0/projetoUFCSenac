@@ -9,7 +9,7 @@ public class Main {
         
         Lutador lutador1 = new Lutador("Cleiton", "Grecia", random.nextInt(1,100), random.nextInt(1,100), random.nextInt(50,110));
         Lutador lutador2 = new Lutador("Jeus", "Olimpo", random.nextInt(1,100), random.nextInt(1,100), random.nextInt(50,110));
-        
+        System.out.println("Testando GIT");
         Luta luta1 = new Luta();
         
         lutador1.apresentar();
